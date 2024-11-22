@@ -1,0 +1,28 @@
+#include<stdio.h>
+void main()
+{
+int a,b,c;
+char d;
+printf("enter operators:'+','-','*','/'");
+scanf("%c",&d);
+printf("enter two operands(numbers)")
+sacnf("%d %d" &a,&b);
+switch(d)
+{
+ case '+':c=a+b;
+ printf("%d",c);
+ break;
+ case '-':c=a-b;
+ printf("%d",c);
+ break;
+ case'*':c=a*b;
+ printf("%d",c);
+ break;
+ case '/':c=a/b;
+ printf("%d",c);
+ break;
+ default:
+  printf("enter valid operator");
+}
+getch();
+}
